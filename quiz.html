@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz - Clima e Cidades Inteligentes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Cidades Inteligentes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="clima.html">Clima</a></li>
+            <li class="nav-item"><a class="nav-link" href="cidades_inteligentes.html">Cidades Inteligentes</a></li>
+            <li class="nav-item"><a class="nav-link" href="soluções.html">Soluções</a></li>
+            <li class="nav-item"><a class="nav-link active" href="quiz.html">Quiz</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<div class="container py-5">
+  <h1 class="text-center mb-5">Quiz: Clima e Cidades Inteligentes</h1>
+
+  <!-- PERGUNTA 1 -->
+  <div class="mb-4">
+    <h5>1. O que são cidades inteligentes?</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q1" id="q1a">
+      <label class="form-check-label" for="q1a">
+        a) Cidades com muitos prédios altos e shoppings.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q1" id="q1b">
+      <label class="form-check-label" for="q1b">
+        b) Cidades que utilizam tecnologia para melhorar a vida da população.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q1" id="q1c">
+      <label class="form-check-label" for="q1c">
+        c) Cidades que não têm problemas de trânsito.
+      </label>
+    </div>
+
+    <button class="btn btn-outline-success btn-sm mt-2" data-bs-toggle="collapse" data-bs-target="#resposta1">
+      Ver Resposta
+    </button>
+    <div id="resposta1" class="collapse mt-2">
+      <div class="alert alert-success">
+        <strong>Resposta:</strong> b) Cidades que utilizam tecnologia para melhorar a vida da população.
+      </div>
+    </div>
+  </div>
+
+  <!-- PERGUNTA 2 -->
+  <div class="mb-4">
+    <h5>2. Qual é um dos objetivos das cidades inteligentes em relação ao clima?</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q2" id="q2a">
+      <label class="form-check-label" for="q2a">
+        a) Aumentar o uso de combustíveis fósseis.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q2" id="q2b">
+      <label class="form-check-label" for="q2b">
+        b) Reduzir a emissão de gases poluentes.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q2" id="q2c">
+      <label class="form-check-label" for="q2c">
+        c) Eliminar o transporte público.
+      </label>
+    </div>
+
+    <button class="btn btn-outline-success btn-sm mt-2" data-bs-toggle="collapse" data-bs-target="#resposta2">
+      Ver Resposta
+    </button>
+    <div id="resposta2" class="collapse mt-2">
+      <div class="alert alert-success">
+        <strong>Resposta:</strong> b) Reduzir a emissão de gases poluentes.
+      </div>
+    </div>
+  </div>
+
+  <!-- PERGUNTA 3 -->
+  <div class="mb-4">
+    <h5>3. Qual dessas tecnologias ajuda no monitoramento climático nas cidades inteligentes?</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q3" id="q3a">
+      <label class="form-check-label" for="q3a">
+        a) Wi-Fi gratuito.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q3" id="q3b">
+      <label class="form-check-label" for="q3b">
+        b) Câmeras de segurança.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q3" id="q3c">
+      <label class="form-check-label" for="q3c">
+        c) Sensores ambientais e estações meteorológicas.
+      </label>
+    </div>
+
+    <button class="btn btn-outline-success btn-sm mt-2" data-bs-toggle="collapse" data-bs-target="#resposta3">
+      Ver Resposta
+    </button>
+    <div id="resposta3" class="collapse mt-2">
+      <div class="alert alert-success">
+        <strong>Resposta:</strong> c) Sensores ambientais e estações meteorológicas.
+      </div>
+    </div>
+  </div>
+
+  <!-- PERGUNTA 4 -->
+  <div class="mb-4">
+    <h5>4. Como as cidades inteligentes contribuem para a sustentabilidade?</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q4" id="q4a">
+      <label class="form-check-label" for="q4a">
+        a) Utilizando apenas energia de hidrelétricas.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q4" id="q4b">
+      <label class="form-check-label" for="q4b">
+        b) Promovendo energia limpa, transporte público eficiente e reciclagem.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q4" id="q4c">
+      <label class="form-check-label" for="q4c">
+        c) Reduzindo o acesso à internet.
+      </label>
+    </div>
+    
+
+    <button class="btn btn-outline-success btn-sm mt-2" data-bs-toggle="collapse" data-bs-target="#resposta4">
+      Ver Resposta
+    </button>
+    <div id="resposta4" class="collapse mt-2">
+      <div class="alert alert-success">
+        <strong>Resposta:</strong> b) Promovendo energia limpa, transporte público eficiente e reciclagem.
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- PERGUNTA 5 -->
+  <div class="mb-4">
+    <h5>5. Como a I.A pode melhorar a previsão do tempo?</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q5" id="q5a">
+      <label class="form-check-label" for="q5a">
+        a) Por analisar dados em tempo real.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q5" id="q5b">
+      <label class="form-check-label" for="q5b">
+        b) Por criar desenhos do clima das cidades.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q5" id="q5c">
+      <label class="form-check-label" for="q5c">
+        c) Por gerar piadas para apresentadores de jornais.
+      </label>
+    </div>
+
+    <button class="btn btn-outline-success btn-sm mt-2" data-bs-toggle="collapse" data-bs-target="#resposta5">
+      Ver Resposta
+    </button>
+    <div id="resposta5" class="collapse mt-2">
+      <div class="alert alert-success">
+        <strong>Resposta:</strong> a) Por analisar dados em tempo real.
+      </div>
+    </div>
+  </div>
+
+  <!-- PERGUNTA 6 -->
+  <div class="mb-4">
+    <h5>6. Qual dessas cidades NÃO é um exemplo de cidade inteligente?</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q6" id="q6a">
+      <label class="form-check-label" for="q6a">
+        a) Curitiba (PR).
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q6" id="q6b">
+      <label class="form-check-label" for="q6b">
+        b) São Paulo (SP).
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q6" id="q6c">
+      <label class="form-check-label" for="q6c">
+        c) Xique-Xique (BA).
+      </label>
+    </div>
+
+    <button class="btn btn-outline-success btn-sm mt-2" data-bs-toggle="collapse" data-bs-target="#resposta6">
+      Ver Resposta
+    </button>
+    <div id="resposta6" class="collapse mt-2">
+      <div class="alert alert-success">
+        <strong>Resposta:</strong> c) Xique-Xique (BA).
+      </div>
+    </div>
+  </div>
+
+  <!-- PERGUNTA 7 -->
+  <div class="mb-4">
+    <h5>7. O que é o Alerta.AÍ?</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q7" id="q7a">
+      <label class="form-check-label" for="q7a">
+        a) Um site de anuncios de jogos.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q7" id="q7b">
+      <label class="form-check-label" for="q7b">
+        b) Uma empresa de segurança privada.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q7" id="q7c">
+      <label class="form-check-label" for="q7c">
+        c) Um sistema de monitoramento hidrológico e de riscos.
+      </label>
+    </div>
+
+    <button class="btn btn-outline-success btn-sm mt-2" data-bs-toggle="collapse" data-bs-target="#resposta7">
+      Ver Resposta
+    </button>
+    <div id="resposta7" class="collapse mt-2">
+      <div class="alert alert-success">
+        <strong>Resposta:</strong> c) Um sistema de monitoramento hidrológico e de riscos.
+      </div>
+    </div>
+  </div>
+
+   <!-- PERGUNTA 8 -->
+  <div class="mb-4">
+    <h5>8. Qual é a principal diferença na forma como uma cidade tradicional e uma cidade inteligente lidam com os eventos climáticos, segundo o texto?</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q8" id="q8">
+      <label class="form-check-label" for="q8a">
+        a) A cidade inteligente apenas coleta mais dados sobre o tempo, enquanto a cidade tradicional depende de previsões da televisão.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q8" id="q8b">
+      <label class="form-check-label" for="q8b">
+        b) A cidade inteligente usa dados para gerenciar o clima de forma proativa e antecipada, enquanto a tradicional tende a apenas reagir aos problemas quando eles ocorrem.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q8" id="q8c">
+      <label class="form-check-label" for="q8c">
+        c) A cidade inteligente consegue impedir a ocorrência de chuvas fortes, algo que a cidade tradicional não consegue fazer.
+      </label>
+    </div>
+
+    <button class="btn btn-outline-success btn-sm mt-2" data-bs-toggle="collapse" data-bs-target="#resposta8">
+      Ver Resposta
+    </button>
+    <div id="resposta8" class="collapse mt-2">
+      <div class="alert alert-success">
+        <strong>Resposta:</strong> b) A cidade inteligente usa dados para gerenciar o clima de forma proativa e antecipada, enquanto a tradicional tende a apenas reagir aos problemas quando eles ocorrem.
+      </div>
+    </div>
+  </div>
+
+   <!-- PERGUNTA 9 -->
+  <div class="mb-4">
+    <h5>9. Com base nos exemplos de Santos e Cubatão, por que tecnologias diferentes de monitoramento (como sensores de maré e de qualidade do ar) são priorizadas em cada cidade?</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q9" id="q9a">
+      <label class="form-check-label" for="q9a">
+        a) Porque a prefeitura de cada cidade escolheu a tecnologia mais barata disponível para compra.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q9" id="q9b">
+      <label class="form-check-label" for="q9b">
+        b) Porque cada cidade possui desafios geográficos e econômicos distintos, que exigem soluções focadas em seus problemas específicos (costeiros em Santos, industriais em Cubatão).
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q9" id="q9c">
+      <label class="form-check-label" for="q9c">
+        c) Porque os cidadãos de Santos se preocupam mais com o mar e os de Cubatão se preocupam mais com as indústrias.
+      </label>
+    </div>
+
+    <button class="btn btn-outline-success btn-sm mt-2" data-bs-toggle="collapse" data-bs-target="#resposta9">
+      Ver Resposta
+    </button>
+    <div id="resposta9" class="collapse mt-2">
+      <div class="alert alert-success">
+        <strong>Resposta:</strong> b) Porque cada cidade possui desafios geográficos e econômicos distintos, que exigem soluções focadas em seus problemas específicos (costeiros em Santos, industriais em Cubatão).
+      </div>
+    </div>
+  </div>
+
+   <!-- PERGUNTA 10 -->
+  <div class="mb-4">
+    <h5>10. De que maneira a combinação de sensores IoT e Inteligência Artificial pode ajudar a prevenir desastres causados por deslizamentos na Serra do Mar, em Cubatão?</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q10" id="q10a">
+      <label class="form-check-label" for="q10a">
+        a) A Inteligência Artificial envia drones para construir barreiras de contenção automaticamente nas áreas de risco.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q10" id="q10b">
+      <label class="form-check-label" for="q10b">
+        b) Os sensores IoT medem a velocidade do vento para prever onde os deslizamentos vão começar.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q10" id="q10c">
+      <label class="form-check-label" for="q10c">
+        c) Os sensores monitoram a chuva e a umidade do solo, e a Inteligência Artificial analisa esses dados para emitir alertas de risco antes que o deslizamento aconteça.
+      </label>
+    </div>
+
+    <button class="btn btn-outline-success btn-sm mt-2" data-bs-toggle="collapse" data-bs-target="#resposta10">
+      Ver Resposta
+    </button>
+    <div id="resposta10" class="collapse mt-2">
+      <div class="alert alert-success">
+        <strong>Resposta:</strong> c) Os sensores monitoram a chuva e a umidade do solo, e a Inteligência Artificial analisa esses dados para emitir alertas de risco antes que o deslizamento aconteça.
+      </div>
+    </div>
+  </div>
+  <!-- PERGUNTA 11 -->
+  <div class="mb-4">
+    <h5>11. Além da segurança, qual é o principal benefício econômico para a cidade de Santos ao utilizar previsões de tempo hiperlocais para a otimização de seu porto?</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q11" id="q11a">
+      <label class="form-check-label" for="q11a">
+        a) Aumentar o número de turistas que visitam a área portuária da cidade.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q11" id="q11b">
+      <label class="form-check-label" for="q11b">
+        b) Garantir maior agilidade e eficiência nas operações portuárias, como no movimento de navios e cargas.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q11" id="q11c">
+      <label class="form-check-label" for="q11c">
+        c) Reduzir os impostos pagos pelas empresas de navegação devido à modernização.
+      </label>
+    </div>
+
+    <button class="btn btn-outline-success btn-sm mt-2" data-bs-toggle="collapse" data-bs-target="#resposta11">
+      Ver Resposta
+    </button>
+    <div id="resposta11" class="collapse mt-2">
+      <div class="alert alert-success">
+        <strong>Resposta:</strong> b) Garantir maior agilidade e eficiência nas operações portuárias, como no movimento de navios e cargas.
+      </div>
+    </div>
+  </div>
+  
+  <!-- PERGUNTA 12 -->
+  <div class="mb-4">
+    <h5>12. Se o sistema de monitoramento prever uma chuva intensa com potencial de alagamento nos canais de Santos, quais seriam duas ações automáticas que a "inteligência" da cidade poderia realizar para mitigar os impactos?</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q12" id="q12a">
+      <label class="form-check-label" for="q12a">
+        a) Enviar SMS para os moradores e acionar as sirenes de alerta nas áreas de risco.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q12" id="q12b">
+      <label class="form-check-label" for="q12b">
+        b) Distribuir cestas básicas e organizar abrigos temporários para a população afetada.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="q12" id="q12c">
+      <label class="form-check-label" for="q12c">
+        c) Gerenciar as comportas do sistema de drenagem e desviar automaticamente o trânsito de ruas com risco de inundação.
+      </label>
+    </div>
+
+    <button class="btn btn-outline-success btn-sm mt-2" data-bs-toggle="collapse" data-bs-target="#resposta12">
+      Ver Resposta
+    </button>
+    <div id="resposta12" class="collapse mt-2">
+      <div class="alert alert-success">
+        <strong>Resposta:</strong> c) Gerenciar as comportas do sistema de drenagem e desviar automaticamente o trânsito de ruas com risco de inundação.
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+
+</body>
+</html>
